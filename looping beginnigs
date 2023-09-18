@@ -1,0 +1,19 @@
+/*
+1. Tee C-kielinen ohjelma joka tulostaa luvun 100 viisi kertaa allekkain näytölle (muista rivin
+vaihto). Käytä toistorakennetta. Muuta tämän jälkeen ohjelmaa siten, että luvut (100)
+tulostuvat peräkäin vaakasuunnassa ja ne on erotettu toisistaan välilyönnillä. (Käytä whiletoistorakennetta)
+*/
+
+#include <stdio.h>
+int main(){
+    
+    int numero = 0;
+    int kertaa = 5;
+    
+    while (numero<kertaa) {
+        printf("\n100\n");                //        ("\t100\t")    /     ("\n100\n")
+        numero++;
+    }
+    
+    return 0;
+}
